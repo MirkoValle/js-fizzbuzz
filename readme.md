@@ -17,3 +17,8 @@ _______________________________
 Scrivo un ciclo che generi numeri a partire da 1 fino a 100.
     -inserisco una condizione dove vengono stampati in console le seguenti parole con relativo significato; "Fizz" per i multipli di 3 - "Buzz" per i multipli di 5 - "FizzBuzz" per i multipli sia di 3 che di 5 - stampo il numero relativo in caso non sia divisibile per nessuno dei precedenti numeri.
 
+Bonus 1: inserisco un div.conteiner nell'html.
+inserisco una funzione (append) che aggiunge un article al conteiner contenente il numero o tag da mostrare
+
+Bonus 2: assegno degli stili al css per ogni tag diverso,
+nella funzione creata nel bonus 1 assegno una classe con lo stile al posto del numero/tag 
