@@ -12,3 +12,8 @@ BONUS 1:
 Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
 BONUS 2:
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+_______________________________
+
+Scrivo un ciclo che generi numeri a partire da 1 fino a 100.
+    -inserisco una condizione dove vengono stampati in console le seguenti parole con relativo significato; "Fizz" per i multipli di 3 - "Buzz" per i multipli di 5 - "FizzBuzz" per i multipli sia di 3 che di 5 - stampo il numero relativo in caso non sia divisibile per nessuno dei precedenti numeri.
+
