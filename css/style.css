@@ -13,7 +13,7 @@ div {
 article {
     width: calc((100% / 10) - 1rem);
     background-color: rgb(236, 139, 11);
-    font-size: 3rem;
+    font-size: 5rem;
     color: rgb(97, 241, 0);
     border-radius: 12px;
     margin: .5rem;
