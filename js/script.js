@@ -1,15 +1,18 @@
+const container = document.getElementById("container");
+
+
 for (let i = 1; i <= 100; i++) {
+    let article = document.createElement("article");
+    container.appendChild(article);
 
     if (i % 3 == 0) {
-        console.log(i + " Fizz")
+        article.classList += "fizz"
     }
     if (i % 5 == 0) {
-        console.log(i + " Buzz")
+        article.classList += "buzz"
     }
-    if ((i % 3 == 0) && (i % 5 == 0)) {
-        console.log(i + " FizzBuzz")
+    if (i % 3 != 0 && i % 5 != 0) {
+        article.innerHTML += i
     }
-
-
 
 }

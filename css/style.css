@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+article {
+    width: calc((100% / 10) - 1rem);
+    background-color: rgb(236, 139, 11);
+    font-size: 3rem;
+    color: rgb(97, 241, 0);
+    border-radius: 12px;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+}
+
+
+
+.fizz {
+    background-image: url(https://png.pngtree.com/png-clipart/20230825/original/pngtree-fizz-comic-book-speech-explosion-bubble-vector-art-illustration-for-comic-lovers-picture-image_8735368.png);
+    background-size: cover;
+}
+
+.buzz {
+    background-image: url(https://img.freepik.com/free-vector/buzz-pop-art-comic-speech-bubbles-book-sound-effects_1142-9949.jpg);
+    background-size: cover;
+}
+
+.fizzbuzz {
+    background-image: url(https://fizzbuzz.billydelashmutt.com/img/FizzBuzz.svg);
+    background-size: cover;
+}
